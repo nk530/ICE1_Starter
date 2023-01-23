@@ -17,6 +17,7 @@ public class CardTrick {
         for (int i = 0; i < hand.length; i++) {
             Card card = new Card();
             System.out.println("Hello");
+            card.setValue((int)(1+Math.random()));
             //card.setValue(insert call to random number generator here)
             // 
             //card.setSuit(Card.SUITS[insert call to random number between 0-3 here])
